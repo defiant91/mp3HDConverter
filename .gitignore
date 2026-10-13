@@ -1,0 +1,47 @@
+# Visual Studio user settings and local workspace state
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio project upgrade backups and reports
+/Backup/
+UpgradeLog*.htm
+UpgradeLog*.html
+
+# Build and ClickOnce publish output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Pp]ublish/
+app.publish/
+*.cache
+*.pdb
+*.application
+*.deploy
+
+# Compiled programs and third-party codec/plugin binaries
+*.exe
+*.dll
+
+# Downloaded third-party mp3HD toolkit archives
+mp3hdtl.zip
+mp3HD_Toolkit_for_*.zip
+mp3hd_toolkit_for_*.zip
+
+# Signing keys and local secrets
+*.pfx
+*.p12
+.env
+.env.*
+!.env.example
+
+# Application logs and temporary tagging data
+*.log
+mp3hdconverter.jsf
+
+# Audio inputs and conversion output
+*.wav
+*.mp3

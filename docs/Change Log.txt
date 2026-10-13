@@ -1,0 +1,98 @@
+-----1.1.0-----(1/27/2010)
+- Can rename files to Artist - Title
+- Minor GUI changes
+- Updated toolkit to version 1.5, new features are:
+	- Faster En- and Decoding (encode 31% faster, decode 26% faster)
+	- Decoding of plain mp3 files
+	- Original File Length support for plain mp3 files
+	- Some minor bug fixes
+	- Encoding of very short input signals
+	- Automatic resynchronization to the mp3HD stream on errors
+	- Redesign of the mp3HD Winamp quality switch
+	- Switched the default mp3HD Encoder ID3 tag version to ID3v2.4 (to overcome Windows 7 issues)
+- Checks for administrative rights
+
+-----1.0.1.2-----(9/7/2009)
+- Fixed a typo
+- Fixed a bug with the message in the inputbox
+- Fixed a bug where opening with the shortcut would place an mp3hd file in the encoder
+- Changed how deleting files works, now it will send the file to be deleted to the recycling bin
+- Changed inputbox to clear when finished encoding/decoding
+
+-----1.0.1.0----- (9/6/2009)
+- Fixed formatting problem with the GUI
+- Changed output box message
+- Added a message in the input boxes
+- Fixed a bug with drag and drop
+- Fixed a bug with "open with"
+
+-----1.0.0.0----- (9/3/2009)
+- Complete rework of the GUI
+- Added view license, view changelog, and view about
+- Separated the encoder/decoder
+- Major code changes
+- Fixed a few bugs with file selecting
+- Added tagging option
+- Added pre-defined genres
+- Added a contact form
+- Fixed tab ordering for easier navigation
+- Created an error log
+
+-----0.6.3.0----- (8/12/2009)
+- Some changes on the interface
+- Remembers all of your settings
+- New logo
+
+-----0.6.1.0----- (8/5/2009)
+- Made program more "dummy proof"
+- Fixed a few bugs with adding files
+
+-----0.6.0.0----- (8/4/2009)
+- Major changes to the gui
+- Added the ability to remove selected items
+
+-----0.5.5.3----- (7/28/2009)
+- Fixed bug when draging files onto executeable
+- Changed the way confirm deletion of files asks
+
+-----0.5.5.2----- (7/24/2009)
+- Fixed bug with multiple files
+
+-----0.5.5.1----- (7/24/2009)
+- Major code revisions
+- Lots of bug fixes
+
+-----0.5.0.0----- (7/24/2009)
+- Multiple file support
+
+-----0.4.1.2----- (7/20/2009)
+- Checks to see if file exists in case of overwrite
+- Major bug fixes with start position, loading on drag over, and finding the correct file
+- Other small code optimizations
+
+-----0.4.0.0----- (7/19/2009)
+- Added insert plugin into winamp
+- Tweaked form load location
+- Drag over shortcut puts the path in the input box
+
+-----0.3.4.0----- (7/18/2009)
+- Remember last form location
+
+-----0.3.3.0----- (7/18/2009)
+- Added delete original file checkbox
+
+-----0.3.1.0----- (7/15/2009)
+- Fixed image loading problem
+- Improved startup time
+
+-----0.3.0.0----- (7/13/2009)
+- Added output selection
+- Fixed a few bugs
+
+-----0.2.3.0----- (7/8/2009)
+- Fixed bug with Drag and Drop
+- Minor filing checking tweaks
+
+-----0.2.2.0----- (7/8/2009)
+- Added Drag and Drop
+- Some code optimization
